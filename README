@@ -1,0 +1,28 @@
+Instructions for building and launching locally, in your terminal (Instruction for Bash but could work in your terminal too...) :
+
+mkdir LLS
+
+cd LLS
+
+Git clone https://github.com/j3lly-Fish/listing-syndication-search.git
+
+python -m venv LLS ##May have to adjust this based on your python/pip version.
+
+source LLS/bin/activate ##Now you'll have a nice virtual environment to install your requirements.
+
+pip install flask
+pip install jsonify
+pip install requests
+pip install beautifulsoup4
+
+cd to the LLS directory ## ./LLS there should be an app.py file in that directory. 
+
+FLASK_APP=app.py flask run ##Run that command in LLS directory. 
+
+cd to search-app/src
+
+npm start
+
+If all went well you should have a react app open in your browser at localhost:3000.
+
+
