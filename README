@@ -11,6 +11,7 @@ python -m venv LLS ##May have to adjust this based on your python/pip version.
 source LLS/bin/activate ##Now you'll have a nice virtual environment to install your requirements.
 
 pip install flask
+pip install flask_cors
 pip install jsonify
 pip install requests
 pip install beautifulsoup4
